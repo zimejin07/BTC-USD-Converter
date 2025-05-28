@@ -2,6 +2,14 @@
 
 A premium dark-mode, mobile-first crypto exchange UI built with Next.js 14, TailwindCSS, and Framer Motion.
 
+---
+
+<p align="center">
+  <img src="/public/preview.png" alt="App Preview" width="300" />
+</p>
+
+---
+
 ## 🚀 Features
 
 - BTC <> USD conversion simulation

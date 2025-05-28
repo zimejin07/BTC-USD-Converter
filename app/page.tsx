@@ -1,3 +1,4 @@
+import ChartCard from "./components/ChartCard";
 import Converter from "./components/Converter";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -17,6 +18,7 @@ export default function Home() {
         <WalletBalanceCard />
         <SendRequestButtons />
         <Converter />
+        <ChartCard />
         <MarketData />
         <PortfolioCard />
         <Transactions />

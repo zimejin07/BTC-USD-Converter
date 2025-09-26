@@ -37,7 +37,7 @@ export default function ChartCard() {
         ticks: {
           color: '#666',
           callback: (val: string | number) => {
-          // You must handle 'string | number' as the input type for the callback
+          // Handle 'string | number' as the input type for the callback
           const numericVal = typeof val === 'string' ? parseFloat(val) : val;
           return `$${numericVal.toLocaleString()}`;
           },

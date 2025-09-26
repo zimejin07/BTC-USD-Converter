@@ -1,6 +1,6 @@
 "use client";
-
-import { formatUSD, formatBTC, formatNumber } from "@/app/lib/formatters";
+import { formatUSD, formatBTC } from "@/app/lib/formatters";
+// import { formatUSD, formatBTC, formatNumber } from "@/app/lib/formatters";
 
 const data = {
   high: 34151.41,

@@ -36,7 +36,11 @@ export default function ChartCard() {
       y: {
         ticks: {
           color: '#666',
-          callback: (val: number) => `$${val.toLocaleString()}`,
+          callback: (val: string | number) => {
+          // You must handle 'string | number' as the input type for the callback
+          const numericVal = typeof val === 'string' ? parseFloat(val) : val;
+          return `$${numericVal.toLocaleString()}`;
+          },
         },
         grid: {
           color: 'rgba(255, 255, 255, 0.05)',

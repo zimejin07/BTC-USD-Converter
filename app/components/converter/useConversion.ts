@@ -13,7 +13,7 @@ export function useConversion(initialCurrency: "btc" | "usd" = "btc") {
     setConverted(result.toFixed(currency === "btc" ? 2 : 8));
   }, [amount, currency, btcPrice]);
   
-  console.log('Error: 'setBtcPrice' is assigned a value but never used.', setBtcPrice)
+  console.log("Error: 'setBtcPrice' is assigned a value but never used.", setBtcPrice)
 
   const toggleCurrency = () =>
     setCurrency((prev) => (prev === "btc" ? "usd" : "btc"));
